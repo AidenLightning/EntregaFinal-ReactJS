@@ -1,5 +1,6 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
+import {NavLink} from 'react-router-dom'
 
 const Navbar = (props) => {
     const {numItems} = props
@@ -13,13 +14,22 @@ const Navbar = (props) => {
       <a className="navbar-brand">⚡Lightning Store⚡</a>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <NavLink className={'nav-link active'} aria-current="page" to='/'>Home</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Novedades</a>
+        <NavLink className={'nav-link'} to='/categoria/amplificadores'>Amplificadores</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href='#' >Música</a>
+        <NavLink className={'nav-link'} to='categoria/guitarras'>Guitarras</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink className={'nav-link'} to='categoria/efectos'>Efectos</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink className={'nav-link'} to='categoria/sintetizadores'>Sintetizadores</NavLink>
+        </li>
+        <li className="nav-item">
+        <NavLink className={'nav-link'} to='categoria/interfaces'>Interfaces</NavLink>
         </li>
       </ul>
       <ul className="navbar-nav mb-2 mb-lg-0">

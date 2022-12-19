@@ -1,5 +1,9 @@
 .greeting{
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.greeting h1{
+    font-size: 25px;
 }
 .greeting img{
     margin-top: 20px;
@@ -11,7 +15,7 @@
     background-size: cover;
     background-position: center;
     width: 83%;
-    min-height: 550px;
+    min-height: 400px;
     margin-top: 50px;
     border-radius: 10px;
     margin-right: auto;
