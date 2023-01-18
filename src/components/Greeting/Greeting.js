@@ -1,12 +1,12 @@
 import React from "react";
 import "./greeting.css";
 
-const ItemListContainer = (props) => {
-  const { greeting } = props;
+const ItemListContainer = () => {
+
   return (
     <div>
       <div className="greeting">
-        <h1>🎉{greeting}🎉</h1>
+        <h1>🎉 Bienvenido a la Tienda en linea de Instrumentos Musicales 🎉</h1>
         <div className="imgWelcome"></div>
       </div>
     </div>
