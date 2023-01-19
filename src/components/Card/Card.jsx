@@ -11,7 +11,7 @@ const Card = (props) => {
         <p className="card-text">{descripcion}</p>
         <h5 className="card-title">Existencia: {stock}</h5>
         <h5 className="card-text">$ {precio} USD</h5>
-        <Link to={`/item/detail/${id}`}>
+        <Link to={`/item/detail/${id-1}`}>
         <button id={id} className="btn btn-primary" style={{ margin: "5px" }}>Mas Info</button>
         </Link>
     </div>

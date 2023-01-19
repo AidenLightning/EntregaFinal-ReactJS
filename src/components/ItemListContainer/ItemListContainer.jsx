@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CarritoContext } from '../../context/CarritoContext'
 import { useParams } from 'react-router-dom';
 import Card from "../Card/Card";
 import Greeting from "../Greeting/Greeting";
 
-const ItemListContainer = (props) => {
+const ItemListContainer = () => {
 
-    const {productos} = props
+    const {productos} = useContext(CarritoContext);
 
     const {categoria} = useParams()
     const filter = categoria ? productos.filter ((item) => item.categoria === categoria) : productos
@@ -14,7 +15,6 @@ const ItemListContainer = (props) => {
     
     <div>
         <Greeting/>
-
     <div className="d-flex container-fluid row" style={{ margin: "auto" }}>
     {filter.map(({ nombre, descripcion, foto, precio, id, stock }, index) => (
       <Card

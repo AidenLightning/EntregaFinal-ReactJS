@@ -2,8 +2,8 @@ import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
 import {NavLink} from 'react-router-dom'
 
-const Navbar = (props) => {
-    const {numItems} = props
+const Navbar = () => {
+
   return (
 <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
@@ -37,9 +37,7 @@ const Navbar = (props) => {
             <a className="nav-link">Finalizar Compra:</a>
         </li>
         <li className="navbar-item">
-            <CartWidget
-            numItems={numItems}
-            />
+            <CartWidget/>
         </li>
       </ul>
     </div>
