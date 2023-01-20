@@ -38,4 +38,4 @@ Esta Web App tiene la capacidad de integrar productos de un ecommerce de manera 
 Este proyecto fue desarrollaado por Oscar Gaitán (Aiden Light)\
 [Facebook](https://www.facebook.com/AidenLightMusic)\
 [Instagram](https://www.instagram.com/aidenlightmusic/)\
-[LinkedIn](www.linkedin.com/in/oscar-gerardo-hernández-gaitán-907ab3128)
+[LinkedIn](https://www.linkedin.com/in/oscar-gaitan/)
