@@ -16,12 +16,11 @@ const ItemListContainer = () => {
     <div>
         <Greeting/>
     <div className="d-flex container-fluid row" style={{ margin: "auto" }}>
-    {filter.map(({ nombre, descripcion, foto, precio, id, stock }, index) => (
+    {filter.map(({ nombre, foto, precio, id, stock }, index) => (
       <Card
         key={index}
         id={id}
         nombre={nombre}
-        descripcion={descripcion}
         foto={foto}
         precio={precio}
         stock={stock}

@@ -1,0 +1,41 @@
+.title{
+    color: white;
+    margin: 50px;
+    background: linear-gradient(to right, #ce900a, #c7c7c7);
+    padding: 10px;
+    text-shadow: 1px 1px 5px #000;
+    box-shadow: 1px 1px 5px #000;
+}
+p{
+    font-size: 17px;
+}
+.sumarb{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+}
+.restarb{
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.counter{
+    padding-top: 10px;
+}
+.regresarb{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.itcount{
+    padding-bottom: 30px;
+}
+.carritob{
+    padding-left: 42px;
+    padding-right: 42px;
+}
+.idetail{
+    box-shadow: 1px 1px 5px #000;
+}

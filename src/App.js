@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 import Checkout from "./components/Checkout/Checkout";
 import CarritoContextProvider from "./context/CarritoContext";
 
-
 function App() {
 
 
@@ -26,7 +25,7 @@ function App() {
           <Route path='/checkout' element={<Checkout/>}/>
           <Route path='*' element={<Error404/>}/>
         </Routes>
-        
+
       </div>
       </CarritoContextProvider>
     </Router>

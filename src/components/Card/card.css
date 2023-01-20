@@ -1,0 +1,17 @@
+.btn-primary{
+    margin: 5px;
+    background-color: rgb(216, 166, 29);
+    border-color: rgb(255, 209, 81);
+    }
+.btn-primary:hover{
+    background-color: rgb(172, 26, 26);
+    border-color: rgba(255, 0, 0, 0.637);
+}
+.btn-primary:active{
+    background-color: rgb(141, 27, 27)!important;
+    border-color: rgba(255, 0, 0, 0.637)!important;
+}
+.detailb{
+    padding-left: 55px;
+    padding-right: 55px;
+}
