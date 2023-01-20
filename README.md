@@ -18,7 +18,7 @@ Amplificadores\
 Guitarras\
 Efectos\
 Sintetizadores\
-Interfaces\
+Interfaces
 
 ### `Secciones`
 
@@ -27,7 +27,7 @@ Las secciones que conforman el proyecto son las siguientes:
 Pagina principal con objetos de la tienda.\
 Pagina principal con filtrado de articulos por categoria.\
 Pagina de informacion individual por articulo.\
-Pagina de carrito que actúa de forma dinámica si existen o no articulos en el.\
+Pagina de carrito que actúa de forma dinámica si existen o no articulos en el.
 
 ### `Funciones`
 
@@ -38,4 +38,4 @@ Esta Web App tiene la capacidad de integrar productos de un ecommerce de manera 
 Este proyecto fue desarrollaado por Oscar Gaitán (Aiden Light)\
 [Facebook](https://www.facebook.com/AidenLightMusic)\
 [Instagram](https://www.instagram.com/aidenlightmusic/)\
-[LinkedIn](www.linkedin.com/in/oscar-gerardo-hernández-gaitán-907ab3128)\
+[LinkedIn](www.linkedin.com/in/oscar-gerardo-hernández-gaitán-907ab3128)
