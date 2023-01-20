@@ -98,7 +98,7 @@ const Formulario = ({ total, compra}) => {
   return (
     
     <form onSubmit={onSubmit} className="container">
-      <h3 className="text-center my-4">🎵 Datos del Comprador 🎵</h3>
+      <h4 className="text-center my-4">🎵 Datos del Comprador 🎵</h4>
       {Object.keys(formulario.buyer).map((key,index) => (
         <Input
         key={index}

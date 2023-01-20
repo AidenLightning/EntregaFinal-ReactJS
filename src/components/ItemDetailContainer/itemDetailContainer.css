@@ -38,4 +38,5 @@ p{
 }
 .idetail{
     box-shadow: 1px 1px 5px #000;
+    border-radius: 4px;
 }
